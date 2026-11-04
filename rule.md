@@ -1,0 +1,9 @@
+- Fix bug cho tôi thôi đừng tự build - tôi sẽ tự build để xem.
+- Đọc toàn bộ source code trong thư mục này 
+- Bạn chỉ được cấp quyền làm việc trong toàn bộ folder hiện tại ( được cấp toàn bộ quyền ) TUYỆT ĐỐI KHÔNG ĐƯỢC can thiệp hay xem folder khác ở trên máy.
+- Sau khi viết code xong phải cho tôi confirm accept hoặc reject không được tự lưu trên máy
+- Viết chương trình bằng ngôn ngữ C++ là chủ yếu 
+- Tạo file run.bat ( gồm build và run) ở trên win
+- Tạo file script.sh ( gồm build và run) ở trên ubuntu
+- Tất cả những file được run.bat và script.sh tạo ra thì đều cho hết vào thư mục build
+- Không được tự động tải bất kỳ application nào mới

@@ -1,0 +1,409 @@
+
+================================================================================
+  1. BIOS / UEFI SETTINGS
+================================================================================
+    Hang san xuat (Vendor):         American Megatrends International, LLC.
+    Phien ban BIOS (Version):       F20
+    Ngay phat hanh (Release Date):  02/02/2026
+    BIOS Revision (Release):        5.32
+    Che do khoi dong (Boot Mode):   UEFI
+    Address:                        0xF0000
+    Runtime Size:                   64 kB
+    ROM Size:                       32 MB
+
+================================================================================
+  2. OPERATING SYSTEM (UBUNTU / LINUX)
+================================================================================
+    He dieu hanh (Kernel Name):     Linux
+    Kernel Release:                 7.0.0-31-generic
+    Kernel Version:                 #31~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Aug 10 09:38:02 UTC 2
+    Kien truc (Architecture):       x86_64
+    Ten may (Hostname):             hieulm
+    Phien ban chi tiet (OS):        Ubuntu 24.04.5 LTS
+    Ma phien ban (Version ID):      24.04
+    Codename:                       noble
+    Thoi gian hoat dong (Uptime):   0 ngay, 2 gio, 31 phut, 12 giay
+    Nguoi dung hien tai (User):     root
+
+================================================================================
+  3. MAINBOARD / BO MACH CHU
+================================================================================
+    Nha san xuat (Board Vendor):    Gigabyte Technology Co., Ltd.
+    Ten ma Main (Model/Product):    Z890 UD WIFI6E
+    Phien ban Main (Board Version): x.x
+    So Serial Main (Board Serial):  Default string
+    Asset Tag:                      Default string
+
+  [Thong tin He thong & Chassis (Case)]
+  ------------------------------------------------------------
+    Hang may bo (System Vendor):    Gigabyte Technology Co., Ltd.
+    Ten san pham he thong:          Z890 UD WIFI6E
+    Serial san pham (System Serial):Default string
+    UUID he thong:                  86e7d800-5600-d80f-e786-00560fd8e786
+    Ma SKU:                         Default string
+    Loai Chassis (Chassis Type):    3 (Desktop - May tinh de ban)
+    Hang Chassis:                   Default string
+    Serial Chassis:                 Default string
+
+================================================================================
+  4. CPU / BO VI XU LY
+================================================================================
+    Kien truc CPU:                  x86_64
+    Tong so luong logic (Threads):  20
+    Ten Model CPU:                  Intel(R) Core(TM) Ultra 7 265KF
+    So nhan tren socket (Cores):    20
+    So luong Socket:                1
+    Xung nhip toi da (Boost MHz):   5500.0000 MHz
+    Xung nhip toi thieu (Min MHz):  800.0000 MHz
+    Ao hoa phan cung (Virtualization):VT-x
+    L1d Cache:                      704 KiB (18 instances)
+    L1i Cache:                      1.1 MiB (18 instances)
+    L2 Cache:                       36 MiB (11 instances)
+    L3 Cache:                       30 MiB (1 instance)
+    Trang thai Ao hoa (VT-x/AMD-V): Ho tro (Intel VT-x / Co san de chay Docker & VM)
+
+================================================================================
+  5. GPU / CARD MAN HINH
+================================================================================
+
+  [GPU #1]
+  ------------------------------------------------------------
+    Ten thiet bi (PCI):             02:00.0 VGA compatible controller [0300]: NVIDIA Corporation Device [10de:2d83] (rev a1)
+    Hang san xuat (Subsystem):      Gigabyte Technology Co., Ltd Device [1458:41b2]
+    Driver dang dung:               nvidia
+    Kernel Modules:                 nvidiafb, nouveau, nvidia_drm, nvidia
+
+  [Thong tin chi tiet NVIDIA GPU]
+  ------------------------------------------------------------
+    NVIDIA GPU Index:               0
+    Ten GPU:                        NVIDIA GeForce RTX 5050
+    Phien ban Driver NVIDIA:        595.99.02
+    Tong dung luong VRAM:           8151 MB
+    VRAM da dung / con trong:       592 MB / 7108 MB
+    Nhiet do GPU:                   43 C
+    Cong suat dien tieu thu:        20.92 W
+    PCI Bus ID:                     00000000:02:00.0
+    Ma Serial GPU:                  0
+    UUID GPU:                       GPU-397f803a-e9b6-0eba-ee70-cd9c7485019d
+
+================================================================================
+  6. RAM / BO NHO TRONG
+================================================================================
+
+  [Tong quan bo nho (Memory Overview)]
+  ------------------------------------------------------------
+    MemTotal:                       31.06 GB (32569768 kB)
+    MemFree:                        0.28 GB (296096 kB)
+    MemAvailable:                   18.54 GB (19440844 kB)
+    Buffers:                        0.13 GB (140528 kB)
+    Cached:                         17.16 GB (17994088 kB)
+    SwapTotal:                      29.80 GB (31250428 kB)
+    SwapFree:                       27.39 GB (28723364 kB)
+
+  [Chi tiet tung thanh RAM & Khe cam (SMBIOS Memory Devices)]
+  ------------------------------------------------------------
+    Dung luong toi da Main ho tro:  128 GB
+    Tong so khe cam RAM tren Main:  4
+
+  [Khe RAM #1]
+  ------------------------------------------------------------
+    Size:                           No Module Installed
+    Form Factor:                    Unknown
+    Locator:                        Controller0-ChannelA-DIMM0
+    Bank Locator:                   BANK 0
+    Type:                           Unknown
+    Type Detail:                    None
+
+  [Khe RAM #2]
+  ------------------------------------------------------------
+    Size:                           16 GB
+    Form Factor:                    DIMM
+    Locator:                        Controller0-ChannelA-DIMM1
+    Bank Locator:                   BANK 0
+    Type:                           DDR5
+    Type Detail:                    Synchronous
+    Speed:                          4800 MT/s
+    Manufacturer:                   Kingston
+    Serial Number:                  6C1637AF
+    Part Number:                    KF556C40-16
+    Configured Memory Speed:        4800 MT/s
+    Non-Volatile Size:              None
+    Volatile Size:                  16 GB
+    Cache Size:                     None
+    Logical Size:                   None
+
+  [Khe RAM #3]
+  ------------------------------------------------------------
+    Size:                           No Module Installed
+    Form Factor:                    Unknown
+    Locator:                        Controller0-ChannelB-DIMM0
+    Bank Locator:                   BANK 1
+    Type:                           Unknown
+    Type Detail:                    None
+
+  [Khe RAM #4]
+  ------------------------------------------------------------
+    Size:                           16 GB
+    Form Factor:                    DIMM
+    Locator:                        Controller0-ChannelB-DIMM1
+    Bank Locator:                   BANK 1
+    Type:                           DDR5
+    Type Detail:                    Synchronous
+    Speed:                          4800 MT/s
+    Manufacturer:                   Kingston
+    Serial Number:                  0E29143A
+    Part Number:                    KF556C40-16
+    Configured Memory Speed:        4800 MT/s
+    Non-Volatile Size:              None
+    Volatile Size:                  16 GB
+    Cache Size:                     None
+    Logical Size:                   None
+
+================================================================================
+  7. O CUNG & PHAN VUNG (STORAGE / DISK)
+================================================================================
+
+  [Cac o dia vat ly (Physical Disks - Excluded Loop/Snap)]
+  ------------------------------------------------------------
+    NAME    MODEL               SERIAL            REV TYPE   SIZE ROTA TRAN   VENDOR STATE
+    nvme0n1 WD_BLACK SN7100 1TB 255234801486 7615M0WD disk 931.5G    0 nvme          live
+
+  [Phan vung & Diem mount (Partitions & Mount Points)]
+  ------------------------------------------------------------
+    NAME        FSTYPE LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS   SIZE
+    nvme0n1                                                                                  931.5G
+    ├─nvme0n1p1 swap         5c704c19-5460-4ff5-92fb-920feb60edb9                [SWAP]       29.8G
+    ├─nvme0n1p2 ext4         8bb2ae9d-30e5-4f34-b9cd-074ea6127d47  459.1G    42% /           884.8G
+    └─nvme0n1p3 vfat         8AE2-C578                                 1G     1% /boot/efi       1G
+
+  [Dung luong thuc te su dung (df)]
+  ------------------------------------------------------------
+    Filesystem     Type      Size  Used Avail Use% Mounted on
+    /dev/nvme0n1p2 ext4      870G  367G  460G  45% /
+    efivarfs       efivarfs  256K  172K   80K  69% /sys/firmware/efi/efivars
+    /dev/nvme0n1p3 vfat      1.1G  6.2M  1.1G   1% /boot/efi
+
+================================================================================
+  8. SUC KHOE O CUNG (DISK S.M.A.R.T & HEALTH)
+================================================================================
+
+  [O dia NVMe: nvme0 (WD_BLACK SN7100 1TB)]
+  ------------------------------------------------------------
+    Model o dia:                    WD_BLACK SN7100 1TB
+    So Serial:                      255234801486
+    Firmware Revision:              7615M0WD
+    Trang thai hoat dong (State):   HOAT DONG TOT (Live / Healthy)
+    Nhiet do o NVMe:                37.9 C (Gioi han nguy hiem: 93.8 C)
+    Canh bao qua nhiet (Alarm):     Binh thuong (Khong)
+
+================================================================================
+  9. MAN HINH & CONG XUAT HINH (DISPLAYS & MONITORS)
+================================================================================
+
+  [Man hinh #1 [card1-HDMI-A-1]]
+  ------------------------------------------------------------
+    Cong ket noi (Port):            card1-HDMI-A-1
+    Trang thai ket noi:             DANG KET NOI (Connected)
+    Do phan giai toi uu:            1920x1080
+    Model / Ten man hinh:           LS24D300G
+
+  [Man hinh #2 [card1-HDMI-A-2]]
+  ------------------------------------------------------------
+    Cong ket noi (Port):            card1-HDMI-A-2
+    Trang thai ket noi:             DANG KET NOI (Connected)
+    Do phan giai toi uu:            1920x1080
+    Model / Ten man hinh:           LS24D300G
+    Tong so man hinh dang ket noi:  2
+
+================================================================================
+  10. BAO MAT PHAN CUNG (TPM & SECURE BOOT)
+================================================================================
+    Trang thai Secure Boot:         SecureBoot enabled
+    Chip bao mat TPM:               TPM 2.0 (Dap ung tieu chuan Windows 11 & Doanh nghiep)
+    Thiet bi TPM trong Kernel:      /dev/tpm0, /dev/tpmrm0 (San sang)
+
+================================================================================
+  11. CAM BIEN NHIET DO TOAN HE THONG (SYSTEM TEMPERATURES)
+================================================================================
+    [nvme] Sensor 2:                39.9 C
+    [nvme] Composite:               37.9 C
+    [nvme] Sensor 1:                50.9 C
+    [acpitz] temp1:                 16.8 C
+    [acpitz] temp2:                 27.8 C
+    [coretemp] Core 40:             40.0 C
+    [coretemp] Core 24:             40.0 C
+    [coretemp] Core 34:             40.0 C
+    [coretemp] Core 4:              38.0 C
+    [coretemp] Core 44:             44.0 C
+    [coretemp] Core 15:             38.0 C
+    [coretemp] Core 35:             40.0 C
+    [coretemp] Core 28:             40.0 C
+    [coretemp] Core 12:             38.0 C
+    [coretemp] Core 38:             40.0 C
+    [coretemp] Core 32:             40.0 C
+    [coretemp] Core 16:             46.0 C
+    [coretemp] Core 36:             40.0 C
+    [coretemp] Package id 0:        45.0 C
+    [coretemp] Core 13:             38.0 C
+    [coretemp] Core 39:             40.0 C
+    [coretemp] Core 33:             40.0 C
+    [coretemp] Core 37:             40.0 C
+    [coretemp] Core 20:             40.0 C
+    [coretemp] Core 0:              38.0 C
+    [coretemp] Core 14:             38.0 C
+    [gigabyte_wmi] temp6:           31.0 C
+    [gigabyte_wmi] temp3:           59.0 C
+    [gigabyte_wmi] temp4:           35.0 C
+    [gigabyte_wmi] temp1:           34.0 C
+    [gigabyte_wmi] temp5:           41.0 C
+    [gigabyte_wmi] temp2:           38.0 C
+    [r8169_0_8200:00] temp1:        51.5 C
+    [NVIDIA GPU] NVIDIA GeForce RTX 5050:43 C
+
+================================================================================
+  12. FAN / QUAT TAN NHIET (TRONG MAY & CAM NGOAI)
+================================================================================
+
+  [Quat GPU #0 (NVIDIA GeForce RTX 5050)]
+  ------------------------------------------------------------
+    Ten thiet bi GPU:               NVIDIA GeForce RTX 5050
+    Toc do quat GPU:                0 %
+
+  [Quat Bo mach chu (CPU Fan / System Fan)]
+  ------------------------------------------------------------
+    Trang thai Quat Mainboard:      Dieu khien boi BIOS / Smart Fan (Chip Super I/O Z890 khong nạp driver hwmon trong Linux)
+
+  [Quat tan nhiet cam ngoai & Bo dieu khien roi (External Cooling Fans & Controllers)]
+  ------------------------------------------------------------
+    Thiet bi cắm ngoai #1:        GIGABYTE Device
+      - Nha san xuat:               ITE Tech. Inc.
+      - Ma Vendor : Product:        048d:5711
+      - So Serial thiet bi:         N/A
+      - Cong ket noi USB:           3-13
+    Luu y ve quat cam cong USB:     Quat cam ngoai chi lay nguon 5V (2-pin khong co chip truyen du lieu D+/D-) se khong giao tiep duoc voi he dieu hanh
+    Tong so quat phat hien duoc:    1
+
+================================================================================
+  13. NGUON & PIN (POWER SUPPLY / BATTERY)
+================================================================================
+    Nguon he thong:                 Nguon dien AC truc tiep 220V/110V (May tinh ban / Desktop PC)
+    Bo nguon (PSU):                 Nguon ATX may ban tieu chuan (khong tich hop chip PMBus/ACPI voi he dieu hanh)
+
+================================================================================
+  14. AM THANH & KHONG DAY (AUDIO & WIRELESS)
+================================================================================
+
+  [Thiet bi Am thanh (Sound Cards / Audio Codec)]
+  ------------------------------------------------------------
+    0 [NVidia         ]: HDA-Intel - HDA NVidia
+                          HDA NVidia at 0x84080000 irq 17
+     1 [PCH            ]: HDA-Intel - HDA Intel PCH
+                          HDA Intel PCH at 0x8000210000 irq 209
+
+  [Card mang khong day Wi-Fi (Hardware)]
+  ------------------------------------------------------------
+    80:14.3 Network controller: Intel Corporation Device 7f70 (rev 10)
+
+  [Thiet bi Bluetooth]
+  ------------------------------------------------------------
+    Bus 003 Device 007: ID 2b89:6275 Realtek Bluetooth Radio
+    Bus 003 Device 008: ID 8087:0033 Intel Corp. AX211 Bluetooth
+
+================================================================================
+  15. IP & MANG (NETWORK INTERFACES)
+================================================================================
+    Default Gateway (IPv4):         192.168.1.1 (thong qua enp130s0)
+    DNS Servers:                    123.23.23.23, 123.23.23.23 123.26.26.26 2001:ee0:23::23 2001:ee0:26::26, 100.100.100.100, 100.100.100.100 fd7a:115c:a1e0::53
+
+  [Interface: ztqti6nf3c [Virtual]]
+  ------------------------------------------------------------
+    Loai Card:                      Card mang ao (Virtual / VPN / Bridge)
+    Trang thai (State):             Hoat dong (Virtual / UP)
+    Dia chi MAC (Physical):         b2:51:d9:79:d9:24
+    MTU:                            2800
+    Toc do ket noi (Speed):         N/A (Card ao - Toc do theo Kernel)
+    Che do Duplex:                  N/A (Card ao)
+    Dia chi IPv4:                   10.218.254.140/24
+    Dia chi IPv6:                   fe80::b051:d9ff:fe79:d924/64
+
+  [Interface: lo [Virtual]]
+  ------------------------------------------------------------
+    Loai Card:                      Card mang ao (Virtual / VPN / Bridge)
+    Trang thai (State):             Hoat dong (Virtual / UP)
+    Dia chi MAC (Physical):         N/A (Card Layer-3 TUN / Ao)
+    MTU:                            65536
+    Toc do ket noi (Speed):         N/A (Card ao - Toc do theo Kernel)
+    Che do Duplex:                  N/A (Card ao)
+    Dia chi IPv4:                   127.0.0.1/8
+    Dia chi IPv6:                   ::1/128
+
+  [Interface: docker0 [Virtual]]
+  ------------------------------------------------------------
+    Loai Card:                      Card mang ao (Virtual / VPN / Bridge)
+    Trang thai (State):             DOWN (Ngat ket noi)
+    Dia chi MAC (Physical):         76:75:3a:6d:2c:41
+    MTU:                            1500
+    Toc do ket noi (Speed):         N/A (Card ao - Toc do theo Kernel)
+    Che do Duplex:                  N/A (Card ao)
+    Dia chi IPv4:                   172.17.0.1/16
+    Dia chi IPv6:                   None
+
+  [Interface: enp130s0 [Physical]]
+  ------------------------------------------------------------
+    Loai Card:                      Card mang vat ly (Physical)
+    Trang thai (State):             UP (Dang ket noi)
+    Dia chi MAC (Physical):         30:56:0f:d8:e7:86
+    MTU:                            1500
+    Toc do ket noi (Speed):         1000 Mbps
+    Che do Duplex:                  full
+    Dia chi IPv4:                   192.168.1.31/24
+    Dia chi IPv6:                   2001:ee0:40e1:7322:9788:2bf3:7872:d549/64, 2001:ee0:40e1:7322:c9a1:6f6f:85a9:5001/64, fe80::e333:e9f5:9caa:6834/64
+
+  [Interface: wlp128s20f3 [Physical]]
+  ------------------------------------------------------------
+    Loai Card:                      Card mang vat ly (Physical)
+    Trang thai (State):             DOWN (Ngat ket noi)
+    Dia chi MAC (Physical):         2c:ea:fc:f0:f4:06
+    MTU:                            1500
+    Dia chi IPv4:                   None
+    Dia chi IPv6:                   None
+
+  [Interface: tailscale0 [Virtual]]
+  ------------------------------------------------------------
+    Loai Card:                      Card mang ao (Virtual / VPN / Bridge)
+    Trang thai (State):             Hoat dong (Virtual / UP)
+    Dia chi MAC (Physical):         N/A (Card Layer-3 TUN / Ao)
+    MTU:                            1280
+    Toc do ket noi (Speed):         N/A (Card ao - Toc do theo Kernel)
+    Che do Duplex:                  N/A (Card ao)
+    Dia chi IPv4:                   100.109.199.118/32
+    Dia chi IPv6:                   fd7a:115c:a1e0::c301:c7c2/128, fe80::d0c0:f684:3f54:f0e/64
+    Tong so Interface mang:         6
+
+================================================================================
+  16. TAI HE THONG & TIEN TRINH (SYSTEM LOAD & TOP PROCESSES)
+================================================================================
+    Muc tai CPU (1m, 5m, 15m):      0.92, 0.71, 0.73
+    Tien trinh dang chay / tong so: 2/3479
+
+  [Top 5 Tien trinh ngốn nhieu CPU nhat]
+  ------------------------------------------------------------
+    PID USER     %CPU %MEM COMMAND
+       5025 hieu     17.5  4.2 firefox
+      12154 hieu     15.9  6.2 Isolated Web Co
+       6320 hieu      9.2  3.9 Isolated Web Co
+       6473 hieu      8.4  0.6 code
+       4071 hieu      2.8  1.1 gnome-shell
+
+  [Top 5 Tien trinh ngốn nhieu RAM nhat]
+  ------------------------------------------------------------
+    PID USER     %CPU %MEM COMMAND
+      12154 hieu     15.9  6.2 Isolated Web Co
+       5025 hieu     17.5  4.2 firefox
+       6320 hieu      9.2  3.9 Isolated Web Co
+     148527 hieu      1.7  2.6 code
+      39747 hieu      1.2  1.8 Isolated Web Co
+
+================================================================================
+  HOAN TAT KIEM TRA HE THONG
+================================================================================

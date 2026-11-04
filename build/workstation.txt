@@ -1,0 +1,85 @@
+
+================================================================================
+     BANG DOI CHIEU THONG SO HE THONG VOI CAU HINH MAY TRAM (WORKSTATION)
+================================================================================
+  Cau hinh tieu chuan doi chieu:
+  MAY TRAM (WTS) ASUS PRO ET700I W7 / 1x Intel Xeon W5-3435X 16C/32T 45M /
+  4x Ram 64GB DDR5-5600 / 1x SSD Kingston 1TB NV3 M.2 2280 NVMe /
+  2x NVIDIA RTX 4000 Ada Generation - 20GB GDDR6 ECC / WOS / 1300W / DEN
+================================================================================
+  Thoi gian thuc hien kiem tra : 2026-11-04 11:30:11
+  Ket qua danh gia tong the    : [KHONG KHOP CAU HINH] (3/8 tieu chi dat/phu hop)
+================================================================================
+
+--------------------------------------------------------------------------------
+ 1. Dong may & Bo mach chu (System & Mainboard)
+--------------------------------------------------------------------------------
+   - Tieu chuan WTS   : ASUS PRO ET700I W7
+   - Thuc te phat hien: Gigabyte Technology Co., Ltd. Z890 UD WIFI6E / Gigabyte Technology Co., Ltd. Z890 UD WIFI6E
+   - Danh gia doi soat: [FAIL / MISMATCH]
+   - Giai thich       : Khong khop model ASUS PRO ET700I W7. Thuc te phat hien: Gigabyte Technology Co., Ltd. Z890 UD WIFI6E
+
+--------------------------------------------------------------------------------
+ 2. Bo vi xu ly (CPU)
+--------------------------------------------------------------------------------
+   - Tieu chuan WTS   : 1x Intel(R) Xeon(R) W5-3435X (16 Cores / 32 Threads, 45MB Cache, 1 Socket)
+   - Thuc te phat hien: Intel(R) Core(TM) Ultra 7 265KF | 1 Socket | 20 Cores | 20 Threads | L3: 30 MiB (1 instance)
+   - Danh gia doi soat: [FAIL / MISMATCH]
+   - Giai thich       : CPU thuc te khac voi Intel Xeon W5-3435X 16C/32T
+
+--------------------------------------------------------------------------------
+ 3. Bo nho trong (RAM)
+--------------------------------------------------------------------------------
+   - Tieu chuan WTS   : 4x RAM 64GB DDR5-5600 (Tong: 256GB, 4 thanh DDR5 bus 5600)
+   - Thuc te phat hien: 31.1 GB tong kha dung (2 thanh: 0 thanh 64GB, 2 thanh DDR5, 0 thanh 5600MHz)
+   - Danh gia doi soat: [FAIL / MISMATCH]
+   - Giai thich       : Khong khop 4x 64GB DDR5-5600 (Tong 256GB). Thuc te: 31.1 GB tong kha dung (2 thanh: 0 thanh 64GB, 2 thanh DDR5, 0 thanh 5600MHz)
+
+--------------------------------------------------------------------------------
+ 4. O cung luu tru (Storage / SSD)
+--------------------------------------------------------------------------------
+   - Tieu chuan WTS   : 1x SSD Kingston 1TB NV3 M.2 2280 NVMe
+   - Thuc te phat hien: nvme0n1 WD_BLACK SN7100 1TB 931.5G nvme
+   - Danh gia doi soat: [FAIL / MISMATCH]
+   - Giai thich       : Khong phat hien SSD Kingston 1TB NV3 NVMe
+
+--------------------------------------------------------------------------------
+ 5. Card do hoa (GPU / VGA)
+--------------------------------------------------------------------------------
+   - Tieu chuan WTS   : 2x NVIDIA RTX 4000 Ada Generation - 20GB GDDR6 ECC
+   - Thuc te phat hien: GPU #0: NVIDIA GeForce RTX 5050 (8151 MB)
+   - Danh gia doi soat: [FAIL / MISMATCH]
+   - Giai thich       : Khong khop 2x NVIDIA RTX 4000 Ada 20GB (Phat hien: 0 card Ada dat chuan / tong so: 1 GPU)
+
+--------------------------------------------------------------------------------
+ 6. He dieu hanh (Operating System)
+--------------------------------------------------------------------------------
+   - Tieu chuan WTS   : WOS (Without OS - Khong kem he dieu hanh thuong mai ban quyen mac dinh)
+   - Thuc te phat hien: Ubuntu 24.04.5 LTS (Dang dung de chay cong cu kiem tra)
+   - Danh gia doi soat: [PASS / OK]
+   - Giai thich       : Tuong thich chuan WOS (Nguoi dung tu cai dat he dieu hanh tuy y)
+
+--------------------------------------------------------------------------------
+ 7. Bo nguon may tram (Power Supply - PSU)
+--------------------------------------------------------------------------------
+   - Tieu chuan WTS   : 1300W
+   - Thuc te phat hien: Nguon AC truc tiep / May tinh ban ATX (Chua giao tiep PMBus SMBIOS)
+   - Danh gia doi soat: [PASS / MANUAL CHECK]
+   - Giai thich       : Nguon may tram khong co chip ky thuat so bao qua OS. Vui long doi chieu tem cong suat 1300W tren than bo nguon.
+
+--------------------------------------------------------------------------------
+ 8. Mau sac & Khung vo (Color & Chassis)
+--------------------------------------------------------------------------------
+   - Tieu chuan WTS   : DEN (Black) - Vo may tram Workstation Asus Pro
+   - Thuc te phat hien: 3 (Desktop - May tinh de ban) (Kiem tra mau sac ngoai quan)
+   - Danh gia doi soat: [PASS / MANUAL CHECK]
+   - Giai thich       : Xac nhan ngoai quan vo may mau Den dung chuan ASUS PRO ET700I W7
+
+================================================================================
+ TONG KET DOI CHIEU CAU HINH (VERIFICATION SUMMARY)
+================================================================================
+   - Tong so muc tieu chi kiem tra : 8
+   - So muc Dat / Phu hop          : 3 / 8
+   - KET LUAN                      : [CAN LUU Y] Phat hien 5 thong so chua khop voi may tram ASUS PRO ET700I W7.
+                                     Vui long xem chi tiet cac muc [FAIL / MISMATCH] o tren.
+================================================================================
