@@ -138,3 +138,43 @@ lsmod | grep -i nvidia
 sudo dmesg | grep -i nvidia
 ```
 
+---
+
+## 7. Sử dụng trên Windows (nvidia.bat)
+
+### Mở Menu tương tác quản lý GPU trên Windows:
+```cmd
+nvidia.bat
+```
+*(Nếu chưa chạy bằng quyền Administrator, script sẽ tự động yêu cầu cấp quyền UAC)*
+
+### Xem nhanh thông tin và trạng thái GPU (CLI):
+```cmd
+nvidia.bat status
+```
+
+### Giám sát GPU thời gian thực liên tục (1s):
+```cmd
+nvidia.bat monitor
+```
+
+### Kích hoạt Persistence Mode & ECC Memory cho 2x RTX 4000 Ada:
+```cmd
+nvidia.bat opt
+```
+
+### Kiểm tra trình biên dịch CUDA Compiler (nvcc) trên Windows:
+```cmd
+nvidia.bat cuda
+```
+
+### Tự động chạy Persistence Mode mỗi khi khởi động Windows (Task Scheduler):
+```cmd
+:: Tao tac vu tu dong khoi dong cung Windows:
+nvidia.bat persist
+
+:: Go bo tac vu khoi dong:
+nvidia.bat unpersist
+```
+
+

@@ -123,63 +123,41 @@ watch -n 1 sensors
 cat build/cpu_rapl.log
 ```
 
-
-### Kiểm tra trạng thái dịch vụ tự động:
-```bash
-systemctl status cpu-rapl-limit.service
-```
-
-### Gỡ bỏ dịch vụ khởi động cùng hệ thống:
-```bash
-sudo ./cpu.sh unpersist
-```
-
 ---
 
-## 4. Các lệnh Linux Sysfs thủ công cốt lõi (Tham chiếu nhanh)
+## 6. Sử dụng trên Windows (cpu.bat)
 
-Bộ 4 câu lệnh can thiệp trực tiếp vào nhân Linux không cần công cụ ngoài:
+### Mở Menu tương tác quản lý CPU trên Windows:
+```cmd
+cpu.bat
+```
+*(Nếu chưa chạy bằng quyền Administrator, script sẽ tự động yêu cầu cấp quyền)*
 
-### 1. Đặt giới hạn công suất PL1 = 100W (100,000,000 µW):
-```bash
-echo 100000000 | sudo tee /sys/class/powercap/intel-rapl:0/constraint_0_power_limit_uw
+### Xem thông số CPU và Power Plan hiện tại:
+```cmd
+cpu.bat status
 ```
 
-### 2. Mở khóa 100% hiệu năng xung nhịp Intel P-State:
-```bash
-echo 100 | sudo tee /sys/devices/system/cpu/intel_pstate/max_perf_pct
+### Giám sát xung nhịp và mức tải CPU thời gian thực:
+```cmd
+cpu.bat monitor
 ```
 
-### 3. Bật Intel Turbo Boost (no_turbo = 0):
-```bash
-echo 0 | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
-```
+### Kích hoạt các chế độ Power Scheme:
+- Tiết kiệm điện / Mát máy (Eco): `cpu.bat eco`
+- Cân bằng tiêu chuẩn (Balanced): `cpu.bat balanced`
+- Hiệu năng cao (High Performance): `cpu.bat high`
+- Chế độ máy trạm tối thượng (Ultimate Performance): `cpu.bat ultimate`
 
-### 4. Gỡ bỏ trạng thái bóp xung nhiệt độ (Thermal Throttling Clamp) của toàn bộ core:
-```bash
-# Reset ve 0 cho tat ca cooling devices cua Processor
-for cd in /sys/class/thermal/cooling_device*; do
-    if [ -f "$cd/type" ] && [ "$(cat "$cd/type")" = "Processor" ]; then
-        echo 0 | sudo tee "$cd/cur_state" > /dev/null
-    fi
-done
-```
+### Bật / Tắt Intel Turbo Boost trên Windows:
+- Bật Turbo Boost: `cpu.bat turbo_on`
+- Tắt Turbo Boost (giữ xung Base, hạ nhiệt): `cpu.bat turbo_off`
 
----
+### Khống chế xung nhịp tối đa theo MHz (Frequency Cap):
+```cmd
+:: Gioi han o 3.2 GHz (3200 MHz)
+cpu.bat freq 3200
 
-## 5. Giám sát xung nhịp & nhiệt độ CPU khi tải (Verification)
-
-### Theo dõi xung nhịp (MHz) của tất cả các nhân CPU liên tục:
-```bash
-watch -n 1 "grep 'cpu MHz' /proc/cpuinfo"
-```
-
-### Theo dõi nhiệt độ các nhân CPU (cần gói lm-sensors):
-```bash
-watch -n 1 sensors
-```
-
-### Xem nhật ký thay đổi công suất CPU đã thực hiện:
-```bash
-cat build/cpu_rapl.log
+:: Go bo gioi han xung nhip
+cpu.bat freq 0
 ```
